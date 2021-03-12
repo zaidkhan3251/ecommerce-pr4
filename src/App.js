@@ -6,6 +6,7 @@ import Checkout from "./Checkout";
 import Login from './Login';
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import './App.css';
 const App = () => {
   const[{user} ,dispatch]=useStateValue();
   useEffect(()=>{
@@ -42,7 +43,7 @@ const App = () => {
             <Home />
           </Route>
           <Route path="/checkout" exact>
-          <Header />
+          <Header className="nav"/>
             <Checkout/>
           </Route>
         </Switch>

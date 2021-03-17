@@ -44,7 +44,7 @@ function Login() {
                By signing-in you agree to the E-store Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                </p>
-               <button className='login__registerButton' onClick={register}>Create your Amazon Account</button>
+               <button className='login__registerButton' onClick={register}>Create your E-store Account</button>
            </div>
         </div>
     )
